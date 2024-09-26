@@ -1,0 +1,26 @@
+reloadMessage: '&e重载成功'
+noPermMessage: '&4你没有权限'
+
+mobs:
+  wolf:
+    id: 'minecraft:iron_shovel'
+    health: 32
+    damage: 15
+    speedLevel: 5
+    lore: '&7传说中属于二郎神的神器，右键可以召唤哮天犬'
+    cd: 60
+    tamedMessage: '&e你召唤出了哮天犬！'
+    nocdMessage: '&e你需要等待 %cd% 秒后才能再次使用！'
+    entityType: 'WOLF'
+    customName: '&9&l%player%的狗'
+  zombie:
+    id: 'minecraft:iron_shovel'
+    health: 40
+    damage: 20
+    speedLevel: 3
+    lore: '&7传说中属于僵尸的神器，右键可以召唤僵尸'
+    cd: 45
+    tamedMessage: '&e你召唤出了僵尸！'
+    nocdMessage: '&e你需要等待 %cd% 秒后才能再次使用！'
+    entityType: 'ZOMBIE'
+    customName: '&2&l%player%的僵尸'
